@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Jboyvibes kitchen</title>
+
+    <meta name="description" content=" Enjoy the best meal in town ." />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+
+  <body class="bg-gray-300">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold text-uppercase fs-3 text-danger"
+          href="#"
+        >
+          Jboyvibes
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto gap-lg-3">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <a href="#menu" class="btn btn-danger fw-bold ms-lg-3 mt-3 mt-lg-0">
+            Order Now
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="Images/bkg.jpeg"
+              class="d-block w-100"
+              alt="Delicious food at Jboyvibes"
+              style="height: 500px; object-fit: cover"
+            />
+
+            <div
+              class="carousel-caption h-100 d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="bg-dark bg-opacity-75 rounded-4 p-4 p-md-5">
+                <p class="text-danger fw-bold text-uppercase">
+                  Welcome to jboyvibes kitchen
+                </p>
+
+                <h1 class="display-4 fw-bold">Best Diner in Town</h1>
+
+                <p class="lead">
+                  Where your cravings come to life. Fresh food, delicious taste,
+                  and happy moments.
+                </p>
+
+                <a href="#menu" class="btn btn-danger btn-lg fw-bold mt-2">
+                  Explore Our Menu
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="Images/Pics.png"
+              class="d-block w-100"
+              alt="Fresh snack"
+              style="height: 500px; object-fit: cover"
+            />
+
+            <div
+              class="carousel-caption h-100 d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="bg-dark bg-opacity-75 rounded-4 p-4 p-md-5">
+                <p class="text-danger fw-bold text-uppercase">
+                  Signature Dishes
+                </p>
+
+                <h2 class="display-5 fw-bold">Taste of Goodness</h2>
+
+                <p class="lead">
+                  Rich flavours prepared with freshness and care.
+                </p>
+
+                <a href="#menu" class="btn btn-danger btn-lg"> See Our Food </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="Images/fio.jpeg"
+              class="d-block w-100"
+              alt="Freshly prepared special meal"
+              style="height: 500px; object-fit: cover"
+            />
+
+            <div
+              class="carousel-caption h-100 d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="bg-dark bg-opacity-75 rounded-4 p-4 p-md-5">
+                <p class="text-danger fw-bold text-uppercase">
+                  Everyday Comfort
+                </p>
+
+                <h2 class="display-5 fw-bold">Made for Every Craving</h2>
+
+                <p class="lead">
+                  Enjoy satisfying meals that bring people together.
+                </p>
+
+                <a href="#contact" class="btn btn-danger btn-lg">
+                  Get in Touch
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="menu" class="container py-5">
+        <div class="text-center mb-5">
+          <span class="badge text-bg-danger text-dark mb-3"> OUR MENU </span>
+
+          <h2 class="display-5 fw-bold text-dark">Our Delicious Meals</h2>
+
+          <p class="text-secondary lead">
+            Enjoy some of our customers' favourite meals.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-4">
+            <article
+              class="card h-100 border-0 shadow rounded-4 overflow-hidden"
+            >
+              <img
+                src="Images/bugger.jpeg"
+                class="card-img-top"
+                alt="Burger"
+                style="height: 240px; object-fit: cover"
+              />
+
+              <div class="card-body d-flex flex-column p-4">
+                <span
+                  class="badge text-bg-danger text-dark align-self-start mb-3"
+                >
+                  Customer Favourite
+                </span>
+
+                <h3 class="card-title fw-bold">Burger</h3>
+
+                <p class="card-text text-secondary">
+                  Enjoy a delicious burger prepared to satisfy your cravings.
+                </p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto pt-3"
+                >
+                  <span class="fs-5 fw-bold text-success">₦15,000</span>
+                  <a href="#contact" class="btn btn-dark">Order Now</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article
+              class="card h-100 border-0 shadow rounded-4 overflow-hidden"
+            >
+              <img
+                src="Images/fio.jpeg"
+                class="card-img-top"
+                alt="Fio Fio"
+                style="height: 240px; object-fit: cover"
+              />
+
+              <div class="card-body d-flex flex-column p-4">
+                <span
+                  class="badge text-bg-danger text-dark align-self-start mb-3"
+                >
+                  Local Favourite
+                </span>
+
+                <h3 class="card-title fw-bold">Fio Fio</h3>
+
+                <p class="card-text text-secondary">
+                  Enjoy a comforting meal full flavour.
+                </p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto pt-3"
+                >
+                  <span class="fs-5 fw-bold text-success">₦15,000</span>
+                  <a href="#contact" class="btn btn-dark">Order Now</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article
+              class="card h-100 border-0 shadow rounded-4 overflow-hidden"
+            >
+              <img
+                src="Images/abacha.jpeg"
+                class="card-img-top"
+                alt="Abacha"
+                style="height: 240px; object-fit: cover"
+              />
+
+              <div class="card-body d-flex flex-column p-4">
+                <span
+                  class="badge text-bg-danger text-dark align-self-start mb-3"
+                >
+                  Elegance test.
+                </span>
+
+                <h3 class="card-title fw-bold">Abacha</h3>
+
+                <p class="card-text text-secondary">Elegance test .</p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto pt-3"
+                >
+                  <span class="fs-5 fw-bold text-success">₦15,000</span>
+                  <a href="#contact" class="btn btn-dark">Order Now</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article
+              class="card h-100 border-0 shadow rounded-4 overflow-hidden"
+            >
+              <img
+                src="Images/nsala.jpg"
+                class="card-img-top"
+                alt="Nsala soup"
+                style="height: 240px; object-fit: cover"
+              />
+
+              <div class="card-body d-flex flex-column p-4">
+                <span
+                  class="badge text-bg-danger text-dark align-self-start mb-3"
+                >
+                  Popular Choice
+                </span>
+
+                <h3 class="card-title fw-bold">Nsala</h3>
+
+                <p class="card-text text-secondary">Elegance test.</p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto pt-3"
+                >
+                  <span class="fs-5 fw-bold text-success">₦15,000</span>
+                  <a href="#contact" class="btn btn-dark">Order Now</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article
+              class="card h-100 border-0 shadow rounded-4 overflow-hidden"
+            >
+              <img
+                src="Images/spagatti.jpeg"
+                class="card-img-top"
+                alt="spagatti"
+                style="height: 240px; object-fit: cover"
+              />
+
+              <div class="card-body d-flex flex-column p-4">
+                <span
+                  class="badge text-bg-danger text-dark align-self-start mb-3"
+                >
+                  Special Meal
+                </span>
+
+                <h3 class="card-title fw-bold">spagatti</h3>
+
+                <p class="card-text text-secondary">Elegance test .</p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto pt-3"
+                >
+                  <span class="fs-5 fw-bold text-success">₦15,000</span>
+                  <a href="#contact" class="btn btn-dark">Order Now</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article
+              class="card h-100 border-0 shadow rounded-4 overflow-hidden"
+            >
+              <img
+                src="Images/egusi.jpeg"
+                class="card-img-top"
+                alt="egusi"
+                style="height: 240px; object-fit: cover"
+              />
+
+              <div class="card-body d-flex flex-column p-4">
+                <span
+                  class="badge text-bg-danger text-dark align-self-start mb-3"
+                >
+                  Special Offer
+                </span>
+
+                <h3 class="card-title fw-bold">Egusi</h3>
+
+                <p class="card-text text-secondary">
+                  Enjoy tasty chicken prepared for a satisfying bite.
+                </p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto pt-3"
+                >
+                  <span class="fs-5 fw-bold text-success">₦15,000</span>
+                  <a href="#contact" class="btn btn-dark">Order Now</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="bg-white py-5">
+        <div class="container py-lg-4">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-5">
+              <img
+                src="Images/Pics.png"
+                alt=""
+                class="img-fluid rounded-4 shadow w-100"
+              />
+            </div>
+
+            <div class="col-lg-7">
+              <span class="badge text-bg-danger text-dark mb-3">
+                ABOUT US
+              </span>
+
+              <h2 class="display-5 fw-bold mb-4">
+                Welcome to Jboyvibes Kitchen
+              </h2>
+
+              <p class="text-secondary fs-5">
+                At Jboyvibes kitchen we believe that good food brings people
+                together. We are dedicated to serving you with the best prepared
+                meal, which celebrate's both local and inter-continatal taste
+                buds
+              </p>
+
+              <p class="text-secondary">
+                We are passionate about serving delicious foods, and satisfying
+                local meals.
+              </p>
+
+              <a href="#contact" class="btn btn-danger btn-lg fw-bold mt-2">
+                Contact Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="bg-dark text-white">
+      <div class="container py-5">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <h3 class="fw-bold text-danger">Jboyvibes kitchen</h3>
+
+            <p class="text-white-50">Good food. Great taste. Happy moments.</p>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <h5 class="fw-bold mb-3">Contact Information</h5>
+
+            <p class="text-white-50 mb-2">
+              <span class="text-danger fw-bold">Location:</span>
+              Enugu, Nigeria
+            </p>
+
+            <p class="text-white-50 mb-2">
+              <span class="text-danger fw-bold">Phone:</span>
+              <a href="tel:08074050845" class="link-light text-decoration-none">
+                08074050845
+              </a>
+            </p>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <h5 class="fw-bold mb-3">Quick Links</h5>
+
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="link-light text-decoration-none"> Home </a>
+              </li>
+
+              <li class="mb-2">
+                <a href="#menu" class="link-light text-decoration-none">
+                  Our Menu
+                </a>
+              </li>
+
+              <li class="mb-2">
+                <a href="#about" class="link-light text-decoration-none">
+                  About Us
+                </a>
+              </li>
+
+              <li>
+                <a href="#contact" class="link-light text-decoration-none">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-top border-secondary text-center py-3">
+        <p class="text-white-50 mb-0">
+          &copy; 2026 Jboyvibes kitchen. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
